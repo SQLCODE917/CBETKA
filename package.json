@@ -1,0 +1,24 @@
+{
+  "name": "cbetka",
+  "version": "0.0.1",
+  "description": "Find nearest color from a list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SQLCODE917/CBETKA.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SQLCODE917/CBETKA/issues"
+  },
+  "homepage": "https://github.com/SQLCODE917/CBETKA#readme",
+  "dependencies": {
+    "d3-color": "^1.0.3",
+    "delta-e": "0.0.7",
+    "yargs": "^11.0.0"
+  }
+}
