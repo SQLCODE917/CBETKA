@@ -5,7 +5,7 @@ const d3Color = require('d3-color')
 
 const color = argv.color
 console.log("Given color: " + color)
-const colors = require('./colors.json')
+const colors = require('./colors.js')
 
 function hexToLAB(hexString) {
 	const { l, a, b} = d3Color.lab(d3Color.color(hexString))
